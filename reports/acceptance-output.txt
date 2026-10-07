@@ -1,0 +1,26 @@
+No broken requirements found.
+
+contracts match runtime
+
+Portable heuristic secret scan passed (not a full security audit).
+
+{
+  "status": "PASS",
+  "api_paths": 36,
+  "api_operations": 40,
+  "active_locked_distributions": 64,
+  "errors": []
+}
+
+Traceback (most recent call last):
+  File "C:\Users\zehra\OneDrive\Desktop\Z\u0259hra\SentinelZone-SIEM-Backend-v0.28.1\SentinelZone-SIEM-Backend\scripts\runtime-smoke.py", line 86, in <module>
+    main()
+  File "C:\Users\zehra\OneDrive\Desktop\Z\u0259hra\SentinelZone-SIEM-Backend-v0.28.1\SentinelZone-SIEM-Backend\scripts\runtime-smoke.py", line 32, in main
+    server = subprocess.Popen([sys.executable, "-m", "uvicorn", "app.main:app",
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\zehra\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\zehra\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 1448, in _execute_child
+    assert not pass_fds, "pass_fds not supported on Windows."
+           ^^^^^^^^^^^^
+AssertionError: pass_fds not supported on Windows.

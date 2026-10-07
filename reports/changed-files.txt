@@ -1,0 +1,32 @@
+Compared by SHA-256 with the prepared handoff ZIP after layout normalization.
+Generated manifest/checksum/change lists are refreshed release metadata.
+All paths are relative to the standalone repository root.
+
+MODIFIED .github/workflows/backend-ci.yml
+MODIFIED CHANGELOG.md
+MODIFIED CONTRIBUTING.md
+MODIFIED INSTALL.md
+MODIFIED LICENSE-TODO.md
+MODIFIED PUSH_TO_GITHUB.md
+MODIFIED README.md
+MODIFIED RELEASE_MANIFEST.md
+MODIFIED SECURITY.md
+MODIFIED SHA256SUMS
+MODIFIED TESTING.md
+MODIFIED docs/CONFIGURATION.md
+MODIFIED docs/DEPENDENCY_LICENSES.md
+MODIFIED docs/INTEGRATION.md
+MODIFIED docs/KNOWN_LIMITATIONS.md
+MODIFIED docs/QUICKSTART.md
+MODIFIED docs/RELEASE_NOTES.md
+MODIFIED docs/STATUS.md
+MODIFIED reports/README.md
+MODIFIED reports/SHA256SUMS
+MODIFIED reports/acceptance-output.txt
+MODIFIED reports/acceptance-tests.xml
+MODIFIED reports/changed-files.txt
+MODIFIED reports/production-validation.xml
+MODIFIED reports/runtime-smoke.json
+ADDED    reports/standalone-validation.json
+MODIFIED scripts/build-release.py
+MODIFIED scripts/validate_release.py
